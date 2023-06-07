@@ -1,0 +1,6 @@
+image: matthewtingum/arm-buildroot-linux-uclibcgnueabi:0.1
+
+aliases:
+  test:
+    script:
+      - arm-buildroot-linux-uclibcgnueabi-gcc main.c -static -o test
